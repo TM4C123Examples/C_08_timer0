@@ -1,0 +1,10 @@
+GPTM Timer A Mode (GPTMTAMR)
+
+	1:0 TAMR RW 0x0 GPTM Timer A Mode  
+
+		0x2 Periodic Timer mode
+	
+    4 TACDIR RW 0  GPTM Timer A Count Direction
+	
+		1  	The timer counts up. When counting up, the timer starts from a
+			value of 0x0
